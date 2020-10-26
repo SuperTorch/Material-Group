@@ -19,6 +19,8 @@ material_group_classification.ipynb为物资分类器
 
 3）封装一套自己的tools，用于类似任务，存在woe_tools文件夹下，工具包为woe_tools.py，可用test_demo.py对工具包的使用进行测试。
 
-待更新：绘制BCG矩阵四象限，根据money_label和risk_label绘制Kraljic采购定位模型，将物资分类为四个类：战略物资（Strategic Items）[money_label=1, risk_label=1]、瓶颈物资（Bottleneck Items）[money_label=0, risk_label=1]、杠杆物资（Strategic Items）[money_label=1, risk_label=0]、一般物资（Non-Critical Items）[money_label=0, risk_label=0]
-
-
+待更新：绘制BCG矩阵四象限，根据money_label和risk_label绘制Kraljic采购定位模型，将物资分类为四个类：
+战略物资（Strategic Items）[money_label=1, risk_label=1]、
+瓶颈物资（Bottleneck Items）[money_label=0, risk_label=1]、
+杠杆物资（Strategic Items）[money_label=1, risk_label=0]、
+一般物资（Non-Critical Items）[money_label=0, risk_label=0]
